@@ -7,3 +7,6 @@
 [submodule "proyecto"]
 	path = proyecto
 	url = https://github.com/iAngelGuzman/proyecto.git
+[submodule "PlantsVsZombies"]
+	path = PlantsVsZombies
+	url = https://github.com/iAngelGuzman/PlantsVsZombies.git
