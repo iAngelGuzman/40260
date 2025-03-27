@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+    <rect x="50" y="100" width="300" height="100" fill="blue" stroke="black" stroke-width="2"/>
+    
+    <rect x="100" y="50" width="200" height="60" fill="darkblue" stroke="black" stroke-width="2"/>
+    
+    <circle cx="100" cy="210" r="30" fill="black"/>
+    <circle cx="300" cy="210" r="30" fill="black"/>
+    
+    <rect x="120" y="60" width="50" height="30" fill="lightblue"/>
+    <rect x="230" y="60" width="50" height="30" fill="lightblue"/>
+    
+    <circle cx="50" cy="150" r="10" fill="yellow"/>
+    <circle cx="350" cy="150" r="10" fill="yellow"/>
+</svg>
