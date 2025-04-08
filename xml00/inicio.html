@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leer XML en HTML</title>
+</head>
+<body>
+    <h2>Lista de Personas</h2>
+    <ul id="lista"></ul>
+
+    <script>
+        // Cargar el XML
+        fetch('alumno.xml')
+            .then(response => response.text())
+            .then(xmlStr => {
+                let parser = new DOMParser();
+                let xml = parser.parseFromString(xmlStr, "text/xml");
+
+                let personas = xml.getElementsByTagName("persona");
+                let lista = document.getElementById("lista");
+
+                for (let i = 0; i < personas.length; i++) {
+                    let nombre = personas[i].getElementsByTagName("nombre")[0].textContent;
+                    let nacimiento = personas[i].getElementsByTagName("nacimiento")[0].textContent;
+
+                    let item = document.createElement("li");
+                    item.textContent = nombre + " - " + nacimiento;
+                    lista.appendChild(item);
+                }
+            })
+            .catch(error => console.error("Error cargando XML:", error));
+    </script>
+</body>
+</html>

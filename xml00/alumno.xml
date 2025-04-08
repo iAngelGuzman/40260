@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="alumno.xsd">
+    <alumno correo="juan@gmail.com">
+        <nombre>Juan</nombre>
+        <nacimiento>01/01/2000</nacimiento>
+    </alumno>
+    <alumno correo="ana@gmail.com">
+        <nombre>Ana</nombre>
+        <nacimiento>02/02/2000</nacimiento>
+    </alumno>
+    <alumno correo="maria1@gmail.com">
+        <nombre>María</nombre>
+        <nacimiento>03/03/2000</nacimiento>
+    </alumno>
+    <alumno correo="luis1@gmail.com">
+        <nombre>Luis</nombre>
+        <nacimiento>04/04/2000</nacimiento>
+    </alumno>
+    <alumno correo="sofia1@gmail.com">
+        <nombre>Sofía</nombre>
+        <nacimiento>05/05/2000</nacimiento>
+    </alumno>
+    <alumno correo="carlos1@gmail.com">
+        <nombre>Carlos</nombre>
+        <nacimiento>06/06/2000</nacimiento>
+    </alumno>
+    <alumno correo="laura1@gmail.com">
+        <nombre>Laura</nombre>
+        <nacimiento>07/07/2000</nacimiento>
+    </alumno>
+    <alumno correo="diego1@gmail.com">
+        <nombre>Diego</nombre>
+        <nacimiento>08/08/2000</nacimiento>
+    </alumno>
+    <alumno correo="valeria1@gmail.com">
+        <nombre>Valeria</nombre>
+        <nacimiento>09/09/2000</nacimiento>
+    </alumno>
+    <alumno correo="jose1@gmail.com">
+        <nombre>José</nombre>
+        <nacimiento>10/10/2000</nacimiento>
+    </alumno>
+    <alumno correo="daniela1@gmail.com">
+        <nombre>Daniela</nombre>
+        <nacimiento>11/11/2000</nacimiento>
+    </alumno>
+    <alumno correo="andres1@gmail.com">
+        <nombre>Andrés</nombre>
+        <nacimiento>12/12/2000</nacimiento>
+    </alumno>
+    <alumno correo="paula1@gmail.com">
+        <nombre>Paula</nombre>
+        <nacimiento>13/01/2000</nacimiento>
+    </alumno>
+    <alumno correo="sergio1@gmail.com">
+        <nombre>Sergio</nombre>
+        <nacimiento>14/02/2000</nacimiento>
+    </alumno>
+    <alumno correo="camila1@gmail.com">
+        <nombre>Camila</nombre>
+        <nacimiento>15/03/2000</nacimiento>
+    </alumno>
+    <alumno correo="javier1@gmail.com">
+        <nombre>Javier</nombre>
+        <nacimiento>16/04/2000</nacimiento>
+    </alumno>
+    <alumno correo="martina1@gmail.com">
+        <nombre>Martina</nombre>
+        <nacimiento>17/05/2000</nacimiento>
+    </alumno>
+    <alumno correo="alejandro1@gmail.com">
+        <nombre>Alejandro</nombre>
+        <nacimiento>18/06/2000</nacimiento>
+    </alumno>
+    <alumno correo="lucia1@gmail.com">
+        <nombre>Lucía</nombre>
+        <nacimiento>19/07/2000</nacimiento>
+    </alumno>
+    <alumno correo="fernando1@gmail.com">
+        <nombre>Fernando</nombre>
+        <nacimiento>20/08/2000</nacimiento>
+    </alumno>
+    <alumno correo="elena1@gmail.com">
+        <nombre>Elena</nombre>
+        <nacimiento>21/09/2000</nacimiento>
+    </alumno>
+    <alumno correo="ricardo1@gmail.com">
+        <nombre>Ricardo</nombre>
+        <nacimiento>22/10/2000</nacimiento>
+    </alumno>
+    <alumno correo="diana1@gmail.com">
+        <nombre>Diana</nombre>
+        <nacimiento>23/11/2000</nacimiento>
+    </alumno>
+    <alumno correo="raul1@gmail.com">
+        <nombre>Raúl</nombre>
+        <nacimiento>24/12/2000</nacimiento>
+    </alumno>
+    <alumno correo="isabel1@gmail.com">
+        <nombre>Isabel</nombre>
+        <nacimiento>25/01/2001</nacimiento>
+    </alumno>
+    <alumno correo="hector1@gmail.com">
+        <nombre>Héctor</nombre>
+        <nacimiento>26/02/2001</nacimiento>
+    </alumno>
+    <alumno correo="carla1@gmail.com">
+        <nombre>Carla</nombre>
+        <nacimiento>27/03/2001</nacimiento>
+    </alumno>
+    <alumno correo="pedro1@gmail.com">
+        <nombre>Pedro</nombre>
+        <nacimiento>28/04/2001</nacimiento>
+    </alumno>
+    <alumno correo="natalia1@gmail.com">
+        <nombre>Natalia</nombre>
+        <nacimiento>29/05/2001</nacimiento>
+    </alumno>
+    <alumno correo="tomas1@gmail.com">
+        <nombre>Tomás</nombre>
+        <nacimiento>30/06/2001</nacimiento>
+    </alumno>
+</alumnos>

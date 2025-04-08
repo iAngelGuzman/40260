@@ -1,0 +1,10 @@
+<alumnos>
+    <alumno correo="juan@gmail.com">
+        <nombre>Juan</nombre>
+        <nacimiento>01/01/2000</nacimiento>
+    </alumno>
+    <alumno correo="ana@gmail.com">
+        <nombre>Ana</nombre>
+        <nacimiento>02/02/2000</nacimiento>
+    </alumno>
+</alumnos>

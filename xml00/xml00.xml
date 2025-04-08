@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas>
+    <persona>
+        <nombre>Juan</nombre>
+        <edad>30</edad>
+    </persona>
+    <persona>
+        <nombre>Ana</nombre>
+        <edad>25</edad>
+    </persona>
+</personas>
+
+
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (nombre, apellido, curso)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT curso (#PCDATA)>
+
+<!ATTLIST alumno
+    id CDATA #REQUIRED
+    edad CDATA #REQUIRED
+    becado (si|no) "no"
+>
+
+<alumnos>
+    <alumno id="1" edad="30" becado="si">
+        <nombre>Luis</nombre>
+        <apellido>Angel</apellido>
+        <curso>Bases de Datos</curso>
+    </alumno>
+    <alumno id="2" edad="25" becado="no">
+        <nombre>Ana</nombre>
+        <apellido>Perez</apellido>
+        <curso>Programación</curso>
+    </alumno>
+    <alumno id="3" edad="28" becado="si">
+        <nombre>Juan</nombre>
+        <apellido>Perez</apellido>
+        <curso>Administración de Servidores</curso>
+    </alumno>
+</alumnos>
