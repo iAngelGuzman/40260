@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes</title>
+</head>
+<body>
+    <div style="width: 100%; text-align: center;">
+        <h1>Imagen Aleatoria</h1>
+        <figure>
+            <img src="https://picsum.photos/200" id="imagen">
+            <figcaption style="text-align: left;">Jonh</figcaption>
+        </figure>
+        <!-- h1{Random Picture}+figure>img[src=""][alt=""]+figcaption{John}+figure>img[src=""][alt=""]+figcaption{Jane} -->
+        <button id="button" onclick="generar()">Generar Imagen</button>
+    </div>
+    <script>
+        async function generar() {
+            var imagen = document.getElementById("imagen");
+            imagen.src = await fetch("https://picsum.photos/200").then(res => res.url);
+            console.log(imagen.src);
+        }
+    </script>
+</body>
+</html>
