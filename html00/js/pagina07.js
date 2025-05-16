@@ -14,3 +14,14 @@ boton.addEventListener("click", function() {
     console.log(confirmarpass.value);
     console.log("Contraseña igual: " + pass.value == confirmarpass.value)
 });
+
+const mostrar = () => {
+    console.log("Mostrar");
+    let user = document.getElementById("user");
+    let password = document.getElementById("password");
+    console.log(user.value);
+    console.log(password.value);
+    
+    let formulario = document.getElementById("formulario");
+    console.log(formulario);
+}
