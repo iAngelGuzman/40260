@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Random Picture</h1>
     <div id="demo"></div>
 
-    <script type="module" src="js/pagina05.js"></script>
+    <script>
+        let ejemplo = document.getElementById("demo");
+        console.log(ejemplo);
+
+        function imagen(id) {
+            return "<figure>" +
+                '<img src="https://picsum.photos/id/' + id + '/200/200" " alt="">' +
+                "<figcaption>Jonh</figcaption>" +
+                "</figure>";
+        }
+
+        const Picture = (id) => {
+            return `
+                <figure>
+                <img src="https://picsum.photos/id/${id}/200/200" alt="">
+                <figcaption>Jonh</figcaption>
+                </figure>
+            `
+        }
+    </script>
 </body>
+
 </html>

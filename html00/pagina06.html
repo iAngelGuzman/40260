@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,23 +12,47 @@
             color: white;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
+
         img {
             border-radius: 50%;
             box-shadow: 0 0 20px rgba(0, 100, 255, 0.8);
         }
+
         figure {
             text-align: center;
             width: 300px;
             display: inline-block;
         }
+
         img.redonda {
             border-radius: 10% 40% 30% 70%;
         }
     </style>
 </head>
+
 <body>
     <div id="app"></div>
 
-    <script type="module" src="js/pagina06.js"></script>
+    <script>
+        const Picture = (id, name, redonda = false) => {
+            const url = `https://picsum.photos/id/${id}/200/200`;
+            return `
+                <figure>
+                    <img src="${url}" class="${redonda ? 'redonda' : ''}">
+                    <figcaption>${name}</figcaption>
+                </figure>
+            `;
+        };
+
+        let x = document.getElementById('app').innerHTML = Picture(1, "John", true) + Picture(2, "Jane");
+
+        const list = app.querySelectorAll('img');
+        for (let i = 0; i < list.length; i++) {
+            list[i].addEventListener('click', function () {
+                this.classList.toggle('redonda');
+            });
+        }
+    </script>
 </body>
+
 </html>

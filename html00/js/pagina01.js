@@ -1,4 +1,4 @@
-export function loadXMLDoc() {
+function loadXMLDoc() {
     const xhttp = new XMLHttpRequest();
     xhttp.onload = function () {
         const xmlDoc = xhttp.responseXML;
